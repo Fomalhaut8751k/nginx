@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.35425.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGI STL解读", "SGI STL解读\SGI STL解读.vcxproj", "{CC0A2F57-70BB-4C30-93C9-6C9CE89AD233}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "-1", "-1\-1.vcxproj", "{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{CC0A2F57-70BB-4C30-93C9-6C9CE89AD233}.Release|x64.Build.0 = Release|x64
 		{CC0A2F57-70BB-4C30-93C9-6C9CE89AD233}.Release|x86.ActiveCfg = Release|Win32
 		{CC0A2F57-70BB-4C30-93C9-6C9CE89AD233}.Release|x86.Build.0 = Release|Win32
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Debug|x64.ActiveCfg = Debug|x64
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Debug|x64.Build.0 = Debug|x64
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Debug|x86.Build.0 = Debug|Win32
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x64.ActiveCfg = Release|x64
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x64.Build.0 = Release|x64
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x86.ActiveCfg = Release|Win32
+		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
