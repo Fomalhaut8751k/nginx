@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGI STL解读", "SGI STL解
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "-1", "-1\-1.vcxproj", "{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGI STL内存池复现", "SGI STL内存池复现\SGI STL内存池复现.vcxproj", "{7A408988-59BC-4740-B889-7EF32542004C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x64.Build.0 = Release|x64
 		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x86.ActiveCfg = Release|Win32
 		{B1340B98-3723-4E05-B6D5-33BCAA01D8F6}.Release|x86.Build.0 = Release|Win32
+		{7A408988-59BC-4740-B889-7EF32542004C}.Debug|x64.ActiveCfg = Debug|x64
+		{7A408988-59BC-4740-B889-7EF32542004C}.Debug|x64.Build.0 = Debug|x64
+		{7A408988-59BC-4740-B889-7EF32542004C}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A408988-59BC-4740-B889-7EF32542004C}.Debug|x86.Build.0 = Debug|Win32
+		{7A408988-59BC-4740-B889-7EF32542004C}.Release|x64.ActiveCfg = Release|x64
+		{7A408988-59BC-4740-B889-7EF32542004C}.Release|x64.Build.0 = Release|x64
+		{7A408988-59BC-4740-B889-7EF32542004C}.Release|x86.ActiveCfg = Release|Win32
+		{7A408988-59BC-4740-B889-7EF32542004C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
