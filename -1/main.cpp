@@ -107,3 +107,10 @@ int main()
 	return 0;
 }
 #endif
+// ###### 系统api的内存对齐 ######################################
+#if 1
+int main() {
+
+	cout << "posix_memalign只支持linux" << endl;
+}
+#endif
