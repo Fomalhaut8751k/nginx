@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGI STL内存池复现", "S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nginx解读", "nginx解读\nginx解读.vcxproj", "{1787C0BB-47F4-447E-B7B3-3E94A859CAF2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nginx复现", "nginx复现\nginx复现.vcxproj", "{026B9717-1B71-42E0-84EA-6911E641665F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{1787C0BB-47F4-447E-B7B3-3E94A859CAF2}.Release|x64.Build.0 = Release|x64
 		{1787C0BB-47F4-447E-B7B3-3E94A859CAF2}.Release|x86.ActiveCfg = Release|Win32
 		{1787C0BB-47F4-447E-B7B3-3E94A859CAF2}.Release|x86.Build.0 = Release|Win32
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Debug|x64.ActiveCfg = Debug|x64
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Debug|x64.Build.0 = Debug|x64
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Debug|x86.ActiveCfg = Debug|Win32
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Debug|x86.Build.0 = Debug|Win32
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Release|x64.ActiveCfg = Release|x64
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Release|x64.Build.0 = Release|x64
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Release|x86.ActiveCfg = Release|Win32
+		{026B9717-1B71-42E0-84EA-6911E641665F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
