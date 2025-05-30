@@ -108,9 +108,64 @@ int main()
 }
 #endif
 // ###### 系统api的内存对齐 ######################################
-#if 1
+#if 0
 int main() {
 
 	cout << "posix_memalign只支持linux" << endl;
+}
+#endif
+// ###### 内存初始化 #############################################
+#if 0
+#include<bitset>
+
+void* ngx_pcalloc(size_t size)
+{
+	void* p = malloc(size);
+	cout << p << endl;
+	unsigned char* _p = (unsigned char*)(p);
+	cout << &_p << endl;
+	cout << _p + size << endl;
+	for (; _p < _p + size; _p++)
+	{
+		*_p = 0;
+		std::bitset<32> binary(*((int*)p));
+		cout << binary << endl;
+	}
+	return (void*)p;
+}
+
+int main()
+{
+	void* p = ngx_pcalloc(3);
+	std::bitset<32> binary(*((int*)p));
+	cout << binary << endl;
+	/*int a = 10;
+	int* p = &a;
+	cout << p << endl;
+	cout << p + size_t(4)/sizeof(int) << endl;*/
+
+	return 0;
+}
+#endif
+// ###### 内存池初始化2 ####################################
+#if 1
+
+struct ngx_pool_data_t
+{
+	int* last;
+	int a;
+	long long b;
+};
+
+int main()
+{
+	
+	ngx_pool_data_t* p = (ngx_pool_data_t*)malloc(sizeof(21));
+	p->last = (int*)((char*)p + sizeof(ngx_pool_data_t));
+	cout << p << endl;
+	cout << sizeof(ngx_pool_data_t) << endl;
+	cout << p->last << endl;
+
+	return 0;
 }
 #endif
